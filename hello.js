@@ -1,2 +1,3 @@
-console.log("hello", " - ", "kani!", " Neredesin?");
-console.log("deneme");
+const slugify = require('slugify');
+const slug  = slugify('merhaba eve gelirken iki ekmek al');
+console.log(slug);
